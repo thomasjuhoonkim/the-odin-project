@@ -1,0 +1,283 @@
+Introduction To Web Development:
+    What do Web Developers Do?:
+        - Web developers often work for clients who are trying to get their
+        product or service onto the web.
+        - Work is typically very project focused and involves collaborating with a team that
+        helps to coordinate the client's needs into the end product.
+        - Work could be front-end, back-end, or full-stack.
+    
+    Types of Web Developers:
+        Front End:
+            - The stuff you see on the website in your browser, including the presentation
+              of content and user interface elements like the navigation bar.
+            - Front-end developers use HTML, CSS, Javascript, and their relavant frameworks to
+              ensure that content is presented effectively and that users have an
+              excellent experience.
+        
+        Back End:
+            - Refers to the guts of the application, which live on the server.
+            - The back end stores and serves program data to ensure the front end has what it needs.
+            - This process is complicated when there are millions of users.
+            - Back-end developers use programming languages like Java, Python, and Ruby
+              to work with data.
+        
+        Full Stack:
+            - Those who are comfortable working with both the front and back ends.
+            - The odin project will teach full stack developement, covering all aspects of web dev.
+    
+    Types of Careers:
+        - Large tech companies, such as Google, Facebook, and Amazon, have very stringent
+          hiring requirements.
+        - If you successfully meet these expactations, they offer excellent pay, benefits, etc.
+        - Startups are a bit like the wild west.
+        - For a junior developer, it can feel like a trial by fire because of the pace
+          of development.
+        - Startups often offer slightly lower salaries and require longer hours, but they may
+          also offer equity in the company and highly unique environments.
+        - As a freelancer, you could command a strong hourly wage and the freedom to schedule and
+          design your own products.
+        - However, you would be responsible for getting your own work (which means less coding time)
+          managing billing from clients (which can be difficult), and being solely responsible.
+        - Strong people skills are necessary for this path.
+        - As a consultant for a web consultancy, you would give up some of your freelancing wage
+          potential but be able to focus more on the code and less on the hustle.
+        - This option also provides a good work/life balance and pay.
+        - Large, older companies still need web developers.
+        - These companies offer a good work/life balance, pay and benefits but often move slower
+          than a company that is highly focused on tech.
+    
+    Tools of the Trade:
+        - Some basic tools you will use regularly. You may not know what they are not,
+          but most certainly will going forward.
+        - Computer
+        - Google
+        - Text Editor
+        - Command Line Interface (CLI)
+        - Stack Overflow
+        - Git
+        - Github
+    
+    Motivation:
+        - The strongest assets you can have as a student are a desire to build,
+          a problem-solving mind, and persistance in the face of setbacks.
+        - The web development industry has successful developers with varying backgrounds.
+        - People tend to care about what you've actually built than how you got there.
+
+    Conclusion:
+        - The following courses will dive deep into these topics.
+        - You will build dozens of scripts, projects, and websites to cement those skills that
+          will get you hired.
+
+====================================================================================================
+
+Motivation and Mindset:
+    Motivation:
+        - Do you want to have a fulfilling career that pays well?
+        - Are you excited by the creative outlet programming provides?
+        - Are you determined to develop the skills and abilities to build any app you can think of?
+        - Do you want to start your own company by turning an app idea into reality?
+        - Whatever the motivation is, hold on tightly to your motivation
+        - This will be what pulls you through to the end of this journey.
+    
+    Growth Mindset:
+        - Someone with a growth mindset belives they can get better at anything with effort
+          and persistence.
+        - It means you can learn new skills and develop new talents with persistence and grit.
+        - While working through the curriculum, embrace the struggles you encounter with difficult
+          concepts and complex projects. Be sure to celebrate your persistence at overcoming
+          the struggles.
+    
+    The Learning Process:
+        - Learning concepts and then practicing them will help you to more fully understand
+          how things work and fit together.
+        - Projects are the ultimate method for ensuring that your theoretical understanding aligns with
+          how the programming concepts and techniques actually operate.
+        - Focus mode: occurs when you are consciously studying the content
+        - Diffuse mode: occurs subconsciously, at times when you are not learning, understanding concent.
+        - Take breaks
+        - Understand it, practice it, and finally teach it.
+    
+    What To Do When You're Stuck:
+        - Google it
+        - Take a break
+        - Ask for help in the discord
+    
+    Manage Your Study Time 
+
+    Pitfalls to Avoid:
+        - Procrastination
+        - Not taking breaks;
+        - Digital Distractions
+        - Physical Distractions
+        - Rabbit Holes
+        - Comparing yourself to others
+
+====================================================================================================
+
+How Does The Web Work?:
+    - Before you can understand how to program the web, you need a more rigorous understanding of
+      the web itself than you likely have now.
+    - These concepts provide a more holisitc understanding of the ecosystem in which you will be
+      working and will enable you to talk intelligently with other developers about your work.
+    
+    What is the Internet?:
+        - To communicate with different computers, one must be physically connected with other
+          computers via cable. When the amount of computers increase in the network,
+          all of the computers must be linked with cables, which is a lot.
+        - Instead, all the computers are connected to a router, that manages traffic of information
+        - If we want to connect to other networks, we simply connect to another router.
+        - If we want to connect to a whole neighborhood, one could simply connect all the routers
+          to a single router for the neighborhood, this can be scaled infinetly.
+        - However, the internet is an infrastructure.
+        - All devices must be able to communiate with eachother somehow.
+        - This is done by utilizing the telephone lines.
+        - Information from the copper telephone lines are converted using a modem.
+        - The routers connect to the modem for information.
+        - The modems then connect to ISPs, companies that allow for communication between other ISPs
+          and ultimately to other computers or webservers.
+        - The internet is an infrastructure
+        - The web is a service built on top of the infrastructure
+            - It is worth nothing that there are several other services built on top of the internet
+              such as email and IRC.
+        
+        Intranets:
+            - Intranets are private networks that are restricted to members of a particular org.
+            - Commonly provided for members to securly access shared resources, collaborate,
+              and communicate.
+        Extranets:
+            - Extranets are very similar to Intranets, except they open all or part of a private
+              network to allow sharing and collaboration with other organizations.
+            - They are typically used to safely and securely share information with clients and
+              stakeholders who work closely with business.
+        - Both intranets and extranets run on the same kind of infrastructure as the Internet,
+          and use the same protocols.
+        - They can therefore be accessed by authorized members from different physical locations.
+    
+    What is the difference between webpage, website, web server, and search engine?
+        Web Page:
+            - A document which can be displayed in a web browser such as Firefox, Google Chrome
+              Opera, Microsoft Internet Explorer or Edge, or Apple's Safari.
+            - Often also just called "pages".
+        Website:
+            - A collection of webpages which are grouped together and usually connected together
+              in various ways.
+            - Often called a "web site" or a "site".
+        Web Server:
+            - A computer that hosts a website on the Internet.
+        Search Engine:
+            - A web service that helps you find other web pages, such as Google, Bing, Yahoo,
+              or DuckDuckGo.
+            - Search engines are normally accessed through a web browser (ie. you can perform
+              search engine searches directly in the address bar of Firefox, Chrome, etc.) or
+              through a web page.
+    
+    How the Web Works:
+        - Computers connected to the web are called clients and servers.
+        - Clients send requests to servers
+        - Servers send a response to clients
+        - Clients are the typical web user's internet connected devices (computers over wifi
+          and phones over a mobile network) and web accessing software available on those devices
+          (usually a web browser like Firefox or Chrome)
+        - Servers are computers taht store webpages, sites, or apps. When a client device wants to
+          acess a webpage, a copy of the webpage is downlaoaded from the server onto the client
+          machine to be displayed in the user's web browser.
+        The other parts of the toolbox:
+            - For now, let's imagine that the web is a road. On one end of the road is the client,
+              which is like your house. On the other end of the road is the server, whcih is a shop
+              you want to buy something from.
+            In addition to the client and the serer, we also need to say hello to:
+                Your internet connection:
+                    - Allows you to send and recieve data on the web. It's basically like the street
+                      between your house and the shop.
+                TCP/IP:
+                    - Transmission Control Protocol and Internet Protocol are communication
+                      protocols that define how data should travel across the internet.
+                    - This is like the transport mechanisms that let you place an order, go to the
+                      shop, and buy your goods. In our example, this is like a car or bike.
+                DNS:
+                    - Domain Name System is like an address book for websites.
+                    - When you type a web address in your browser, the browser looks at the DNS to find
+                      the website's IP address before it can retrieve the website.
+                    - The browser needs to find out which server the website lives on, so it can send
+                      HTTP messages to the right place (see below). This is like looking up the address of the
+                      shop so you can access it.
+                HTTP:
+                    - Hypertext Transfer Protocol is an application protocol that defines a language
+                      for cliens and servers to speak to each other. This is like the language you
+                      use to order your goods.
+                Component files:
+                    - A website is made up of many different files, which are like the different
+                      parts of the goods you buy from the shop.
+                    These files come in two main types:
+                        Code files:
+                            - Websites are built primarily from HTML, CSS, and JavaScript, though
+                              you'll meet other technologies a bit later.
+                        Assets:
+                            - This is a collective name for all the other stuff that makes up a website
+                             such as images, music, video, Word documents, and PDFs.
+        
+        So what happens, exactly?:
+            - When you type a web address into your browser
+            1. The browser goes to the DNS server, and finds the real address of the server 
+               that the website lives on (you find the address of the shop)
+            2. The browser sends an HTTP request message to the server, asking it to send a copy of
+               the website to the client (you go to the shop and order your goods). This message, and
+               all other data sent between the client and the server, is sent across your internet
+               connection using TCP/IP.
+            3. If the server approves the client's request, the server send the client a "200 OK"
+               message, which means "Of course you can look at that website! Here it is", and then
+               starts sending the website's files to the browser as a series of small chunks called
+               data packets (the shop gives you your goods, and you bring them back to your house).
+            4. The browser assembles the small chunks into a complete web page and displays it to
+               you (the goods arrive at your door - new shiny stuff, awsome!)
+        
+        Order in which component files are parsed:
+            - When browsers send requsts to servers for HTML files, those HTML files often contain 
+              <link> elements referencing external CSS stylesheets and <script> elements referencing
+              external JavaScript scripts. It's important to know the order in which those files are
+              parsed by the browser as the browser loads the page:
+                - The browser parses the HTML file first, and that leads to the browser recognizing any
+                  <link> element references to external CSS stylesheets and any <scipt> element
+                  referencing scipts.
+                - As the browser pases the HTML, it sends requests back to the server for any CSS
+                  files it has found from <link> elements, and any JavaScipt files it has found from
+                  <script> elements, and from those, then parses the CSS and JavaScipt.
+                - The browser generates an in-memory DOM tree from the parsed HTML, generates an
+                  in-memory CSSOM structure from the parsed CSS, and compiles and executes the parsed
+                  JavaScript.
+                - As the browser builds the DOM tree and applies the styles from the CSSOM tree and
+                  executes the JavaScript, a visual representation of the page is painted to the screen,
+                  and the user sees the page content and can begin to interact with it.
+        
+        DNS explained:
+            - Real web addresses aren't the nice, memorable strings you type into your address bar
+              to find your favorite websites. They are special numbers that look like this: 63.245.215.20
+            - This is called an IP address, and it represents a unique location on the web.
+            - However, it's not very easy to rememebr is it? That's why Domain Name Servers were invented.
+            - These are special servers that match up a web address you type into your browers
+              (like mozilla.org) to the website's real (IP) address.
+        
+        Packets explained:
+            - Earlier we used the term "packets" to describe the format in which the data is sent from
+              server to client. What do we mean here?
+            - Basically, when data is sent across the web, it is sent in thousands of small chunks.
+            - There are multiple reasons why data is sent in small packets.
+            - They are sometimes dropped or corrupted, and it's easier to replace small chunks
+              when this happens.
+            - Additionally, the packets can be routed along different paths, making the exchange
+              faster and allowing many different users to downlaod the same webstie at the same time.
+            - If each website was sent as a single big chunk, only one user could download it at a time.
+            - Whcih obviously would make the web very inefficient and not much fun to use.
+        
+    How does a DNS request work?:
+        - As we already saw, when you want to display a webpage in your browser it's easier to type
+          a domain name than an IP address.
+        1. Type mozilla.org in your browser's location bar.
+        2. Your browser asks your ocmputer if it already recognizes the IP address idenfitifed
+           by this domain name (using a local DNS cache). If it does, the name is translated to the IP
+           address and the browser negotiates contents with the web server. End of Story.
+        3. If your computer does not know which IP is behind the mozilla.org name, it goes on to
+           ask a DNS server, whose job is precisely to tell your computer which IP address matches
+           each registed domain name.
+        4. Now that the computer knows the requested IP address, your browser can negotiate contents
+           with the web server.
