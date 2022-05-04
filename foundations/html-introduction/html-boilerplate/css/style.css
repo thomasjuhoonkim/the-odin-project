@@ -1,34 +1,41 @@
 body {
-    background-color: #a7dbe3;
+    background-image: url(../img/more-leaves-on-green.png);
     color: white;
     font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3
 }
 
 p {
     color: #2f4c5c;
 }
 
-.intro {
-    font-size: 30px;
-}
+/* the CSS box model */
 
-.highlight {
-    background: yellow;
-}
+/*
+    Margin: empty space around my element
+    Border: a border / stroke / around my element
+    Padding: empty space WITH background around my element
 
-.accent-color {
-    color: red;
-}
+    All of these ADD on top of the width and height!
+*/
 
-h1 {
-    font-size: 70px;
-    color: #3747b3;
-}
+.box {
+    background-image: url(../img/bridge.jpg);
+    padding: 200px 100px;
+    margin: 100px;
 
-#top-section {
-    background-color: pink;
-}
+    background-size: cover;
+    background-position: center;
 
-#bottom-section {
-    background: green;
+
+    /* all sides */
+    /* top and bottom, left and right */
+    /* top, left and right, bottom */
+    /* top, right, bottom, left */
+
+    /* box -> padding -> border -> margin */
 }
