@@ -1,17 +1,56 @@
 body {
+    background-color: #85cba3;
     background-image: url(../img/more-leaves-on-green.png);
-    color: white;
+    color: black;
     font-size: 21px;
+
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 }
 
 h1 {
     font-size: 70px;
-    color: #3747b3
+    color: #3747b3;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,"Times New Roman",serif;
+
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
 }
 
 p {
-    color: #2f4c5c;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    line-height: 1.4;
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+
+    text-align: left;
 }
+
+.bolder {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: lowercase;
+    
+}
+
+.bold {
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
 
 /* the CSS box model */
 
