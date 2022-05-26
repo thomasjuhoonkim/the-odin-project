@@ -5,6 +5,8 @@ body {
     font-size: 21px;
 
     font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+
+    text-align: center;
 }
 
 h1 {
@@ -30,6 +32,7 @@ p {
     font-weight: lighter;
 
     text-align: left;
+    clear: both;
 }
 
 .bolder {
@@ -43,11 +46,94 @@ p {
     font-weight: bold; 
 }
 
+a:link {
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: #555;
+}
+
+
+.body-text {
+    background-color: #2d73d6;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: #c04fd6;
+}
+
+.body-text a:hover {
+    color: #DDD;
+}
+
+.important-link {
+    color: yellow !important;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+/* lists */
+
+/*
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-type: circle;
+    background-color: pink;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ul li {
+    background: red;
+    margin-bottom: 15px;
+}
+
+ol {
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+*/
+
+
+
+/* CSS link styling order */
+
+/*
+link
+hover
+visited
+active
+*/
 
 
 
