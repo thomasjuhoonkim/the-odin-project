@@ -1,46 +1,15 @@
-function min(a, b) {
-  return a <= b ? a : b;
-}
+let answer = parseInt(
+  prompt("Please enter the number you would like to FizzBuzz up to: ")
+);
 
-function pow(x, n) {
-  if (x === undefined || isNaN(x) || n === undefined || isNaN(n)) {
-    return undefined;
+for (let i = 1; i <= answer; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
   }
-  let result = 1;
-  for (let i = 0; i < n; i++) {
-    result *= x;
-  }
-  return result;
-}
-
-// function ask(question, yes, no) {
-//   if (confirm(question)) yes();
-//   else no();
-// }
-
-// ask(
-//   "Do you agree?",
-//   () => {
-//     alert("You agreed.");
-//   },
-//   () => {
-//     alert("You cancelled the execution.");
-//   }
-// );
-
-function add7(a) {
-  return a + 7;
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-function capitalize(string) {
-  return string[0].toUpperCase() + string.substring(1);
-}
-
-function lastLetter(string) {
-  string = String(string);
-  return string.substring(string.length - 1);
 }
